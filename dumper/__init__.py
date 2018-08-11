@@ -631,7 +631,7 @@ def short_dump (val):
     else:
         try:
             val = repr(val)
-        except UnicodeError as err:
+        except UnicodeError, err:
             val = "[got unicode error trying to represent value: " + str(err) +\
                 ']'
         return object_summary (val) + ': ' + repr(val)
