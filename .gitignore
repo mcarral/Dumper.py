@@ -5,3 +5,4 @@ __*
 *.egg-info
 dist
 *.zip
+.idea
